@@ -6,6 +6,8 @@ services:
     environment:
       - BOT_TOKEN=${BOT_TOKEN}
       - CHAT_ID=${CHAT_ID}
+      - API_ID=${API_ID}
+      - API_HASH=${API_HASH}
     volumes:
       - .:/app  # 将主机当前目录映射到容器的工作目录
     restart: always
