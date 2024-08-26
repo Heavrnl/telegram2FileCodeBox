@@ -4,6 +4,7 @@ WORKDIR /app
 
 # 直接安装所需的库
 RUN pip install --no-cache-dir python-telegram-bot requests
+ FastTelethonhelper telethon cryptg
 
 COPY . .
 
